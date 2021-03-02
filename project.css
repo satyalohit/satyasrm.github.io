@@ -105,9 +105,7 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    border-radius: 50%;
-    
-    
+    border-radius: 50%;    
     text-align: center;
     font-size: 1.2em;
     transition: all 1s;
@@ -147,19 +145,20 @@ form:hover .fa{
 }
                                                                                                        /*mp4video*/
 .banner{
+
  
  width: 100%
- height:60%;
+ height:100%;
  overflow: hidden;
  justify-content: center;
  align-items: center;
  background-size: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	
-	min-height: 600px;
-	z-index: -1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  min-height: 600px;
+  z-index: -1;
 
 }
 .banner video{
@@ -172,15 +171,16 @@ form:hover .fa{
   pointer-events:none;
   background-attachment: fixed;
   z-index: -1;
-  
 }
 .banner .content
 {
   position: absolute;
   z-index: 1;
-  margin-left: 34%;  
+  margin-left: 38%;  
+  margin-right: 38%;
   margin-top:15%; 
   text-align: center;
+  justify-content: ce
 
 }
 
@@ -189,14 +189,17 @@ form:hover .fa{
 
 #parallax{
 	background-image: url(https://i.postimg.cc/cL9WvVQW//ub.JPG);
-	background-size: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	opacity: 1;
-	min-height: 900px;
-	z-index: -1;
-	margin-top: -3.9em;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  min-height: 600px;  
+  z-index: 1;
+  margin-top: 5%;
+  
+
+	
 }
 
                                                                                                /*white background*/
@@ -295,8 +298,8 @@ form:hover .fa{
   display: grid;
   width: 50%;  
   margin-bottom: 15%; 
- margin-left: 15%;  
-  margin-top:15%; 
+ margin-left: 17%;  
+  margin-top:10%; 
   grid-template-rows: repeat(2,200px);
   grid-template-columns: repeat(2,1fr);
 
@@ -339,7 +342,7 @@ form:hover .fa{
 #Latestnews{
 	text-decoration: none;
 	font-size: 2.5em;
-	margin-left: 35%;
+	margin-left: 38%;
 
 	color: black;
 	font-weight: bold;
@@ -694,7 +697,7 @@ a{
 
 font-size: 2.5em;
 position: relative;
-margin-left: 34%;	
+margin-left: 38%;	
 }
 
 #Events:hover{
@@ -962,7 +965,7 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
 .grid-section1 #box{
   display: grid;
   width: 75%;
-  margin: 10%; 
+  margin: 14%; 
 
   
   grid-template-rows: repeat(3,100px);
@@ -978,7 +981,7 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
 #academics{
 	font-size: 2.5em;
 	position: relative;
-	margin-left: 34%;
+	margin-left: 38%;
 	color: black;
 	font-weight: bold;
 	top: 1em;
@@ -1066,8 +1069,8 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
  .grid-section3{
   display: grid;
   width: 75%;  
-margin-left:1%;
-margin-right: 1%; 
+margin-left:2.5%;
+ 
 margin-top: 18%;
  
   grid-template-rows: repeat(2,150px);
@@ -1095,7 +1098,7 @@ margin-top: 18%;
 	position: relative;
 	font-weight: bold;
 	top: 1em;
-	margin-left: 34%;
+	margin-left: 38%;
 	color: black;
 	
 	
@@ -1113,7 +1116,7 @@ margin-top: 18%;
   position: relative;
   font-weight: bold;
   top: 2em;
-  margin-left: 34%;
+  margin-left: 38%;
   color: black;
 	
 	
@@ -2104,7 +2107,7 @@ img {vertical-align: middle;}
 .fimg{
   
   position: absolute;
- margin-left: 34%;  
+ margin-left: 35%;  
   margin-top:2%; 
 }
 
@@ -2116,7 +2119,7 @@ font-size: 2.5em;
   position: relative;
   font-weight: bold;
   top: 2em;
-  margin-left: 34%;
+  margin-left: 38%;
   color: black;
 
 	
