@@ -194,7 +194,7 @@ form:hover .fa{
   background-position: center;
   background-repeat: no-repeat;
   opacity: 1;
-  min-height: 600px;  
+  min-height: 800px;  
   z-index: 1;
   margin-top: 5%;
   
@@ -300,12 +300,12 @@ form:hover .fa{
   
    display: grid;
   width: 55%;
-  margin:auto ;
-  margin-bottom: 8em;
 
-  margin-top: 5em;
+  margin:auto;
   
- 
+  margin-top: 4em; 
+  margin-bottom: 6em;
+
   grid-template-rows: repeat(2,200px);
   grid-template-columns: repeat(2,1fr);
 
@@ -323,9 +323,10 @@ form:hover .fa{
 
 }
  .grid5:nth-child(1) .box1:nth-child(1) .imgbx:nth-child(1) >img:nth-child(1){
-
-	width:492px;
-  height:200px;
+position: relative;
+object-fit: cover;
+	width:100%;
+  height:80%;
 	}
 
 
@@ -334,8 +335,9 @@ form:hover .fa{
 .box1 .imgbx >img{
   border-radius: 10px;
 	position: relative;
-	width: 220px;
-	height:180px;
+	width: 100%;
+	height:100%;
+  height: auto;
 margin: 0;
 }
 
@@ -357,8 +359,8 @@ margin: 0;
  .box1
 {
 	position: relative;
-	width: 200px;
-	height: 200px;
+	width: 100%;
+	height: 100%;
 	margin:0;
 	transform-style: preserve-3d;
 }
@@ -761,11 +763,14 @@ margin-left: 40%;
  .card .box .imgbox img{
 position: absolute;
 	top:0;
-	left:0;
+  height: auto;
+  width: auto;
+	
 	width: 100%;
 	height:100%;
+  object-fit: cover;
 
-	object-fit: cover;
+	
 	
 	
 
@@ -821,6 +826,8 @@ a:hover{color:#0040ff;
 .grid-section{
   display: grid;
   width: 75%;
+
+
   margin:50px auto;
   border:2px red;  
   margin-top: 0;
@@ -969,9 +976,8 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
 .grid-section1 #box{
   display: grid;
   width: 75%;
-  margin: 200px auto; 
-
-  
+  margin:200px auto; 
+  margin-top: 6em; 
   grid-template-rows: repeat(3,100px);
   grid-template-columns: repeat(3,1fr);
 }
@@ -979,9 +985,6 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
 	font-size: 2em;
 	margin-left: 8px;
 }
-
-
-
 #academics{
 	font-size: 2.5em;
 	position: relative;
@@ -1073,11 +1076,8 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
  .grid-section3{
   display: grid;
   width: 90%;  
-margin: auto 50px;
-
- 
+margin: auto 50px; 
 margin-top: 18%;
- 
   grid-template-rows: repeat(2,100px);
   grid-template-columns: repeat(4,1fr);
 }
@@ -1102,7 +1102,7 @@ margin-top: 18%;
 	font-size: 2.5em;
 	position: relative;
 	font-weight: bold;
-	top: 1em;
+
 	margin-left: 40%;
 	color: black;
 	
@@ -1120,6 +1120,7 @@ margin-top: 18%;
 	font-size: 2.5em;
   position: relative;
   font-weight: bold;
+  margin-top: 0;
   
   margin-left: 40%;
   color: black;
@@ -1135,8 +1136,9 @@ margin-top: 18%;
 .rightside{
   
   width: 50%;
-  margin-top: 10em;
-  margin-left: 20px;
+  margin-top: 2em;
+  margin-left: 0;
+
   height: 300px;
   padding: 1em;
 
@@ -1152,7 +1154,7 @@ margin-top: 18%;
   height:220px;
   width: 450px;
   position: absolute;
-  right: 0;
+  right:0;
 
   background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
@@ -2025,7 +2027,7 @@ img {vertical-align: middle;}
 }
 .footer-menu1{
   float: right;
-  width: 18%;
+  width: 19%;
 }
 .footer-menu1 ul{
   padding: 0;
@@ -2123,7 +2125,7 @@ img {vertical-align: middle;}
 font-size: 2.5em;
   position: relative;
   font-weight: bold;
-  top: 0;
+  top: 1em;
   margin-left: 40%;
   color: black;
 
@@ -2139,19 +2141,12 @@ font-size: 2.5em;
     
   display: grid;
   width: 94%;
-  margin: 250px auto;
-  margin-bottom: 0;
-
-   
-margin-top: 18%;
- 
+  margin:auto 50px;
+  margin-bottom: 0;   
+  margin-top: 10%; 
   grid-template-rows: repeat(1,200px);
   grid-template-columns: repeat(2,1fr);
 }
-
- 
-  
- 
   
   .back h2
   {
@@ -2235,6 +2230,7 @@ margin-top: 18%;
 	margin-left: 10%;
   margin-right: 10%;
 	background-color: white;
+ 
 	
 	overflow: hidden;
 
