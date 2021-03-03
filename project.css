@@ -295,13 +295,15 @@ form:hover .fa{
   font-size: 1.1em;
 }
 .grid-section4{
-  display: grid;
-  width: 50%;  
-  margin-bottom: 15%; 
- margin-left: 17%;  
-  margin-top:10%; 
+   display: grid;
+  width: 65%;
+  margin:200px auto;
+  background-color:none;
+  margin-top: 5em;
+ 
   grid-template-rows: repeat(2,200px);
   grid-template-columns: repeat(2,1fr);
+  
 
 }
 .cbx{
@@ -342,10 +344,13 @@ form:hover .fa{
 #Latestnews{
 	text-decoration: none;
 	font-size: 2.5em;
-	margin-left: 38%;
+	margin-left: 40%;
 
 	color: black;
 	font-weight: bold;
+
+
+
 
 }
 #Latestnews:hover{
@@ -697,7 +702,7 @@ a{
 
 font-size: 2.5em;
 position: relative;
-margin-left: 38%;	
+margin-left: 40%;	
 }
 
 #Events:hover{
@@ -965,7 +970,7 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
 .grid-section1 #box{
   display: grid;
   width: 75%;
-  margin: 14%; 
+  margin: 200px auto; 
 
   
   grid-template-rows: repeat(3,100px);
@@ -981,7 +986,7 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
 #academics{
 	font-size: 2.5em;
 	position: relative;
-	margin-left: 38%;
+	margin-left: 40%;
 	color: black;
 	font-weight: bold;
 	top: 1em;
@@ -1011,7 +1016,7 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
 	position:relative;
 	width:100%;
 	display: grid;
-	padding: 10px;
+	padding: 5px;
 	}
 .container .card
 {
@@ -1069,11 +1074,11 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
  .grid-section3{
   display: grid;
   width: 75%;  
-margin-left:2.5%;
+margin: 50px;
  
 margin-top: 18%;
  
-  grid-template-rows: repeat(2,150px);
+  grid-template-rows: repeat(2,100px);
   grid-template-columns: repeat(4,1fr);
 }
 
@@ -1098,7 +1103,7 @@ margin-top: 18%;
 	position: relative;
 	font-weight: bold;
 	top: 1em;
-	margin-left: 38%;
+	margin-left: 40%;
 	color: black;
 	
 	
@@ -1115,8 +1120,8 @@ margin-top: 18%;
 	font-size: 2.5em;
   position: relative;
   font-weight: bold;
-  top: 2em;
-  margin-left: 38%;
+  
+  margin-left: 40%;
   color: black;
 	
 	
@@ -1131,7 +1136,7 @@ margin-top: 18%;
   
   width: 50%;
   margin-top: 10em;
-  margin-left: 0px;
+  margin-left: 10px;
   height: 300px;
   padding: 1em;
 
@@ -2119,7 +2124,7 @@ font-size: 2.5em;
   position: relative;
   font-weight: bold;
   top: 2em;
-  margin-left: 38%;
+  margin-left: 40%;
   color: black;
 
 	
@@ -2134,9 +2139,9 @@ font-size: 2.5em;
     
   display: grid;
   width: 94%;
- 
-  margin-left:8%;
-margin-right: 8%; 
+  margin: 200px auto;
+  margin-bottom: 0;
+   
 margin-top: 18%;
  
   grid-template-rows: repeat(1,200px);
