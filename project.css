@@ -206,8 +206,8 @@ form:hover .fa{
 
 .body-2{
 	width: 80%;
-	margin-left: 10%;
-  margin-right: 10%;
+	margin: 20% auto;
+
 	background-color:white;
 	height: 60%;
 	margin-top: 10em;
@@ -294,12 +294,15 @@ form:hover .fa{
 #grad1 p{
   font-size: 1.1em;
 }
+
 .grid-section4{
+
   
    display: grid;
   width: 55%;
-  margin:200px auto;
-  background-color:none;
+  margin:auto ;
+  margin-bottom: 8em;
+
   margin-top: 5em;
   
  
@@ -321,17 +324,19 @@ form:hover .fa{
 }
  .grid5:nth-child(1) .box1:nth-child(1) .imgbx:nth-child(1) >img:nth-child(1){
 
-	width:480px;
-  height:200px
+	width:492px;
+  height:200px;
 	}
+
+
 
  
 .box1 .imgbx >img{
   border-radius: 10px;
 	position: relative;
-	width: 200px;
-	height:100%;
-
+	width: 220px;
+	height:180px;
+margin: 0;
 }
 
 #ln{
@@ -345,10 +350,6 @@ form:hover .fa{
 	margin-left: 40%;
 	color: black;
 	font-weight: bold;
-
-
-
-
 }
 #Latestnews:hover{
 	color:#0000b3;
@@ -358,7 +359,7 @@ form:hover .fa{
 	position: relative;
 	width: 200px;
 	height: 200px;
-	margin:0;	
+	margin:0;
 	transform-style: preserve-3d;
 }
 
@@ -763,6 +764,7 @@ position: absolute;
 	left:0;
 	width: 100%;
 	height:100%;
+
 	object-fit: cover;
 	
 	
@@ -1071,7 +1073,7 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
  .grid-section3{
   display: grid;
   width: 90%;  
-margin: 200px auto;
+margin: auto 50px;
 
  
 margin-top: 18%;
