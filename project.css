@@ -2327,8 +2327,8 @@ font-size: 2.5em;
 }
 #announcement{
     box-sizing: border-box;
-    text-align: center;
-    font-size: 1em;   
+    text-align: left;
+    font-size: 1.2em;   
     color: black;
 }
 #announcement:hover{
@@ -2387,6 +2387,7 @@ font-size: 2.5em;
   .ann .ancard .ancontent a {
     text-decoration: none;
     font-size:1.0em;
+    padding-bottom:5px ;
     line-height:20px;
      color: black;
     
@@ -2565,9 +2566,14 @@ margin: 0;
   transition: 0.5s;
   
 }
+.image .over  p{
+  font-size: 0.4em;
+
+}
+
 .image .over  h2{
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 0.5em;
   
 }
 .ima{
@@ -2718,6 +2724,7 @@ position: absolute;
   left:0;
   width: 100%;
   height:100%;
+
   
   
   backface-visibility: hidden;
@@ -2730,16 +2737,17 @@ position: absolute;
 }
 .card .box .content div{
   transform-style: preserve-3d;
-  padding: 3px;
+  padding: 10px;
   border-radius: 1em;
   background:linear-gradient(to bottom, #ffffff 20%, #33ccff 100%);
   opacity: 0.9;
+
   transform:translateZ(60px);
   
   
 }
  .card .box .content  p{
-  font-size: 1em;
+  font-size: 0.6em;
   letter-spacing: 1px;
 
 }
@@ -2905,7 +2913,7 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
   margin-left: 8px;
 }
 #academics{
-  font-size: 2em;
+  font-size: 1.7em;
   position: relative;
   margin-left:0;
   color: black;
@@ -3334,8 +3342,25 @@ font-size: 2em;
                                                                      /*tablet-view(ipad)*/
 @media (min-width: 550px) and (max-width: 825px) 
   {
-                                                                                                           /*mp4video*/
+                                                                              /*events*/
 
+    .image .over  p{
+  font-size: 0.9em;
+
+}
+
+.image .over  h2{
+  font-weight: bold;
+  font-size: 1.2em;
+  
+}
+#announcement{
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 2em;   
+    color: black;
+}
+                                                                                                           /*mp4video*/
 
 
 
@@ -3393,7 +3418,7 @@ font-size: 2em;
 }
 #Latestnews{
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 3em;
   margin-left:0;
   color: black;
   font-weight: bold;
@@ -3413,7 +3438,7 @@ font-size: 2em;
 }
 #Events{
 margin-top: 2em;
-font-size: 2.5em;
+font-size: 3em;
 position: relative;
 margin-left:0; 
 }
@@ -3675,7 +3700,7 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
   margin-left: 8px;
 }
 #academics{
-  font-size: 2.5em;
+  font-size: 3em;
   position: relative;
   margin-left: 0;
   color: black;
@@ -3689,7 +3714,7 @@ background-image:linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #3
 }
 
 #admission{
-font-size: 2.5em;
+font-size: 3em;
   position: relative;
   font-weight: bold;
   top: 5em;
@@ -3798,7 +3823,7 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
   font-size: 1.2em;
 }
 #research{
-  font-size: 2.5em;
+  font-size: 3em;
   position: relative;
   font-weight: bold;
 
@@ -3913,7 +3938,7 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
 
                                                                                               /*about*/
   #about{
-  font-size: 2.5em;
+  font-size: 3em;
   position: relative;
   font-weight: bold;
   margin-top: 0;
@@ -4097,6 +4122,24 @@ background: linear-gradient(to bottom, #ffffff 0%, #33ccff 100%);;
                                                                                                  /*tablet2 mode(ipad pro)*/
 
   @media (min-width: 825px) and (max-width: 1100px){
+
+
+  .image .over  p{
+  font-size: 0.9em;
+
+}
+
+.image .over  h2{
+  font-weight: bold;
+  font-size: 1.2em;
+  
+}
+#announcement{
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 2em;   
+    color: black;
+}
     .banner{
 
  
@@ -4261,7 +4304,7 @@ position: absolute;
 }
 .card .box .content div{
   transform-style: preserve-3d;
-  padding: 3px;
+  padding: 10px;
   border-radius: 1em;
   background:linear-gradient(to bottom, #ffffff 20%, #33ccff 100%);
   opacity: 0.9;
@@ -4270,13 +4313,13 @@ position: absolute;
   
 }
  .card .box .content  p{
-  font-size: 1.3em;
+  font-size: 1.8em;
   letter-spacing: 1px;
 
 }
 
  .card .box .content div h2{
-  font-size: 1.8em;
+  font-size: 2em;
   letter-spacing: 1px;
 }
 .info p{
@@ -4347,7 +4390,7 @@ a:hover{color:#0040ff;
   background-position: center;
   background-repeat: no-repeat;
   visibility: hidden;
-  opacity: 0.9;
+  opacity: 1;
   min-height: 100px;
   z-index: -1;
 }
